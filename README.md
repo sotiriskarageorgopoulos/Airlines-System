@@ -2,6 +2,7 @@
 This system supports booking airline tickets.
 
 The functionalities are the below.
+
 **Admin**
 * Inserts a departure & destination of a flight.
 * Adds a new airline.
