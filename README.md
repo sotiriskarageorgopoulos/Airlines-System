@@ -32,3 +32,6 @@ The functionalities are the below.
 * Change the flight. 
 * Display all tickets purchased.
 * Book a ticket.
+
+### Author
+**Sotiris Karageorgopoulos**
