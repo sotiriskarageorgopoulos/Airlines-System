@@ -1,0 +1,169 @@
+@charset "UTF-8";
+
+body {
+    background-color: #2edbd6;
+    font-size: 14px;
+    width: 100%;
+}
+
+.upd-form,
+.del-form,
+.insert-form {
+    margin-top: 6%;
+    margin-bottom: 3%;
+}
+
+.del-header,
+.insert-header,
+.register-header,
+.login-header {
+    font-size: 27px;
+}
+
+form {
+    margin-top: 18%;
+    margin-bottom: 40%;
+    padding: 2%;
+    width: 70%;
+    box-shadow: 5px 10px aliceblue;
+    background-color: #EAEAEA;
+    font-size: 17px;
+}
+
+.login-footer {
+    position: absolute;
+    color: aliceblue;
+    font-weight: 17px;
+    bottom: 0;
+    width: 100%;
+}
+
+.register-link {
+    font-size: 20px;
+    margin-right: 30%;
+    color: black;
+}
+
+.register-link:hover {
+    color: gray;
+    text-decoration: none;
+}
+
+.register-link:hover:after {
+    color: gray;
+    content: "Register";
+    margin-right: -20%;
+}
+
+.login-link {
+    color: black;
+    text-decoration: none;
+    margin-right: 35%;
+}
+
+.login-link:hover {
+    color: gray;
+    text-decoration: none;
+}
+
+.login-link:hover::after {
+    color: gray;
+    content: "Login";
+    margin-right: -10%;
+}
+
+.btn-submit,
+.login-btn {
+    margin-top: 5%;
+}
+
+.nav-item-style {
+    font-size: 18px;
+}
+
+.user-footer,
+.admin-footer-flight {
+    position: relative;
+}
+
+.user-footer-message-to-admin,
+.user-footer-flight-info,
+.admin-footer-discounts {
+    position: absolute;
+    bottom: 0;
+}
+
+.admin-info-box {
+    display: flex;
+    flex-flow: column nowrap;
+    background-color: #EAEAEA;
+    border: 2px ridge aliceblue;
+    border-radius: 25px;
+    width: 20%;
+    margin-top: 4%;
+    margin-left: 4%;
+    height: 50vh;
+    padding: 1%;
+}
+
+.update-phone-num-form,
+.update-psw-form,
+.update-email-form {
+    margin-top: 15%;
+    margin-left: 10%;
+    margin-bottom: 0%;
+}
+
+.list-of-available-flights {
+    display: flex;
+    flex-flow: column nowrap;
+    background-color: #EAEAEA;
+}
+
+.reserve-btn {
+    width: 20%;
+    border-radius: 25px;
+}
+
+.card-body {
+    background-color: #EAEAEA;
+}
+
+.flight-info {
+    font-size: 18px;
+}
+
+.no-form-style-del-account,
+.no-form-style {
+    margin-top: unset;
+    margin-bottom: unset;
+    width: unset;
+    box-shadow: unset;
+    font-size: unset;
+}
+
+.no-form-style-del-account {
+    background-color: unset;
+    width: unset;
+}
+
+.badge {
+    position: absolute;
+    font-size: x-small;
+    margin-left: -2px;
+    margin-top: -10px;
+    color: white;
+    border-radius: 50%;
+    background-color: red;
+}
+
+.notifications,
+.no-notifications {
+    width: 100%;
+    background-color: #EAEAEA;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 10%;
+    padding: 10%;
+    border: 5px inset white;
+}
